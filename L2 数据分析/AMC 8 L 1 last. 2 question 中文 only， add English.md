@@ -1,1 +1,0 @@
-AMC 8 L 1 last. 2 question 中文 only， add English
