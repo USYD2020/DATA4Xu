@@ -103,11 +103,12 @@ print("Month:", month)
 print("State:", state)
 ```
 
-
-
-
+---
 
 ## Exercise 3 : LeetCode 练习：快慢指针
+
+完成 数组相关的双指针算法阅读
+https://labuladong.online/zh/algo/essential-technique/array-two-pointers-summary-2/
 
 [26. 删除有序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)
 
