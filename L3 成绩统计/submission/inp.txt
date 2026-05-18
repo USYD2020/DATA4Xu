@@ -1,0 +1,6 @@
+name:unikey:unit:year:mark
+"Alice":alic0123:elec1001:2016:67
+"Alice":alic0123:elec1001:2017:88
+"Bob":bobx0123:elec1001:2016:88
+"Bob":bobx0123:engg1001:2016:49
+"Carol":carl0123:buss1001:2016:88
