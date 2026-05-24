@@ -15,10 +15,13 @@ for row in open('climate_data_2017(1).csv'):
         min_mth_rain[key] = min(rainfall,min_mth_rain[key])
     else:
         min_mth_rain[key] = rainfall
-mini = 0
+
+key_min = ()
+max_rainfall = -1
 for i,r in min_mth_rain.items():
-    if r > mini:
-        mini = r
+    if r > max_rainfall:
+        max_rainfall = r
         key_min = i
+        # print("update", i,r)
 print('Month:', key_min[0])
 print('State:', key_min[1])

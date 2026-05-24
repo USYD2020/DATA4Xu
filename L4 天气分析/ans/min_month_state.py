@@ -20,5 +20,8 @@ with open("climate_data_2017.csv") as f:
 ((month, state), rainfall) = max(min_mth_rain.items(),
                                   key=lambda t: t[1])
 
+# sort(list, key = lambda x:x[1]) 匿名函数
+# max(list)
+
 print("Month:", month)
 print("State:", state)
