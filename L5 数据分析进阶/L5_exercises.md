@@ -136,3 +136,17 @@ max_humidity_by_state_as_dict = None
 for k in sorted(max_humidity_by_state_as_dict):
     print(k, ":", float(max_humidity_by_state_as_dict[k]))
 ```
+
+\---
+
+## Exercise 4 : LeetCode 练习：双指针
+
+完成 数组相关的双指针算法阅读
+
+https://labuladong.online/zh/algo/essential-technique/array-two-pointers-summary-2/
+
+[1. 两数之和](https://leetcode.cn/problems/two-sum/)
+
+[704. 二分查找](https://leetcode.cn/problems/binary-search/)
+
+[344. 反转字符串](https://leetcode.cn/problems/reverse-string/)
