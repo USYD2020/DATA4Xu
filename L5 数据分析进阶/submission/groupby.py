@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("climate_data_2017(1).csv")
+df = pd.read_csv("climate_data_2017.csv")
 
 # 按 State 分组
 grouped_by_state = df.groupby("state")
