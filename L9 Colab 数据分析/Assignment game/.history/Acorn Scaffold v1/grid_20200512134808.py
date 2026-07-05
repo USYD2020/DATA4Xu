@@ -1,0 +1,29 @@
+from game_parser import read_lines
+
+def grid_to_string(grid, player):
+    """Turns a grid and player into a string
+
+    Arguments:
+        grid -- list of list of Cells
+        player -- a Player with water buckets
+
+    Returns:
+        string: A string representation of the grid and player.
+    """
+    lines = []
+    for cells in grid:
+        line = []
+        for cell in cells:
+            line.append(cell.display)
+        line.append('\n')
+        lines.append(line)
+    lines[player.row][player.col] = 'A'
+    
+    # join all chars to one string
+    to_print = ''
+    for line in lines:
+        to_print += ''.join(line)
+    return to_print
+
+# grid,player = read_lines("board_hard.txt")
+# print(grid_to_string(grid,player))

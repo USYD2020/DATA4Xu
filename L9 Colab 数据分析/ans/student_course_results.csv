@@ -1,0 +1,25 @@
+student_id,faculty,program,course,term,mark,attendance
+z5200001,Science,Data Science,DATA1001,T1,88,92
+z5200002,Science,Data Science,DATA1001,T1,76,85
+z5200003,Business,Commerce,COMM1190,T1,69,78
+z5200004,Business,Commerce,COMM1190,T1,91,96
+z5200005,Engineering,Computer Science,COMP1010,T1,82,88
+z5200006,Engineering,Computer Science,COMP1010,T1,47,62
+z5200007,Science,Statistics,DATA1001,T2,64,74
+z5200008,Science,Statistics,DATA1001,T2,55,80
+z5200009,Business,Commerce,COMM2501,T2,73,86
+z5200010,Business,Commerce,COMM2501,T2,85,90
+z5200011,Engineering,Software Engineering,COMP1010,T2,58,70
+z5200012,Engineering,Software Engineering,COMP1010,T2,94,98
+z5200013,Science,Data Science,DATA1001,T3,41,55
+z5200014,Science,Data Science,DATA1001,T3,79,83
+z5200015,Business,Commerce,COMM1190,T3,52,68
+z5200016,Business,Commerce,COMM1190,T3,63,72
+z5200017,Business,Commerce,COMM2501,T3,97,99
+z5200018,Engineering,Computer Science,COMP1010,T3,71,81
+z5200019,Science,Statistics,DATA1001,T3,90,95
+z5200020,Business,Commerce,COMM2501,T1,44,58
+z5200021,Engineering,Software Engineering,COMP1010,T1,66,77
+z5200022,Science,Data Science,DATA1001,T1,73,84
+z5200023,Business,Commerce,COMM1190,T2,88,91
+z5200024,Engineering,Computer Science,COMP1010,T2,39,50
