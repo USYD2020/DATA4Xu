@@ -1,8 +1,8 @@
 """
 Tests for grid.py
 
-Run with:
-    python3 tests/test_grid.py
+Run from the scaffold folder with:
+    python3 -m tests.test_grid
 """
 from game_parser import parse
 from grid import grid_to_string
@@ -45,7 +45,7 @@ def test_grid_to_string_player_replaces_start():
 
 def test_grid_to_string_returns_string():
     """grid_to_string should return a string, not print."""
-    lines = ['***\n', 'XY\n', '***\n']
+    lines = ['***\n', 'XY*\n', '***\n']
     grid = parse(lines)
     player = Player(1, 0)
 

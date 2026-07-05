@@ -1,8 +1,8 @@
 """
 Tests for game_parser.py
 
-Run with:
-    python3 tests/test_parser.py
+Run from the scaffold folder with:
+    python3 -m tests.test_parser
 """
 from game_parser import parse, read_lines
 from cells import Air, Wall, Start, End, Water, Fire, Teleport
@@ -28,7 +28,7 @@ def test_simple_grid():
 
 def test_air_cells():
     """Empty spaces should be Air cells."""
-    lines = ['***\n', '* *\n', '***\n']
+    lines = ['***\n', 'X Y\n', '***\n']
     grid = parse(lines)
     assert isinstance(grid[1][1], Air)
     assert grid[1][1].display == ' '
@@ -81,7 +81,7 @@ def test_bad_letter():
 
 def test_unmatched_teleport():
     """A teleport pad with no pair should raise ValueError."""
-    lines = ['***\n', 'X1 \n', '***\n']
+    lines = ['****\n', 'X1Y*\n', '****\n']
     try:
         parse(lines)
         assert False, 'Expected ValueError'
@@ -114,7 +114,7 @@ def test_water_and_fire():
 
 def test_zero_is_invalid():
     """Teleport pad '0' should be rejected."""
-    lines = ['***\n', 'X0 \n', '***\n']
+    lines = ['****\n', 'X0Y*\n', '****\n']
     try:
         parse(lines)
         assert False, 'Expected ValueError'

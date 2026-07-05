@@ -1,8 +1,8 @@
 """
 Tests for game.py
 
-Run with:
-    python3 tests/test_game.py
+Run from the scaffold folder with:
+    python3 -m tests.test_game
 """
 from game import Game
 
