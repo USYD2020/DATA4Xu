@@ -1,0 +1,31 @@
+student_id,faculty,program,course,term,assignment,exam,attendance
+z5300001,Science,Data Science,DATA1001,T1,42,45,92
+z5300002,Science,Data Science,DATA1001,T1,36,38,84
+z5300003,Business,Commerce,COMM1190,T1,31,41,79
+z5300004,Business,Commerce,COMM1190,T1,45,46,95
+z5300005,Engineering,Computer Science,COMP1010,T1,39,37,88
+z5300006,Engineering,Computer Science,COMP1010,T1,20,28,63
+z5300007,Science,Statistics,DATA1001,T2,32,35,76
+z5300008,Science,Statistics,DATA1001,T2,29,30,81
+z5300009,Business,Commerce,COMM2501,T2,37,40,86
+z5300010,Business,Commerce,COMM2501,T2,43,44,91
+z5300011,Engineering,Software Engineering,COMP1010,T2,30,31,70
+z5300012,Engineering,Software Engineering,COMP1010,T2,47,48,98
+z5300013,Science,Data Science,DATA1001,T3,21,25,55
+z5300014,Science,Data Science,DATA1001,T3,40,39,83
+z5300015,Business,Commerce,COMM1190,T3,26,28,68
+z5300016,Business,Commerce,COMM1190,T3,33,30,72
+z5300017,Business,Commerce,COMM2501,T3,48,49,99
+z5300018,Engineering,Computer Science,COMP1010,T3,35,36,82
+z5300019,Science,Statistics,DATA1001,T3,46,44,96
+z5300020,Business,Commerce,COMM2501,T1,24,20,58
+z5300021,Engineering,Software Engineering,COMP1010,T1,34,32,78
+z5300022,Science,Data Science,DATA1001,T1,38,35,85
+z5300023,Business,Commerce,COMM1190,T2,44,44,93
+z5300024,Engineering,Computer Science,COMP1010,T2,18,21,52
+z5300025,Science,Data Science,DATA2001,T2,41,42,87
+z5300026,Science,Data Science,DATA2001,T3,47,46,94
+z5300027,Business,Commerce,COMM2501,T3,36,34,88
+z5300028,Engineering,Software Engineering,COMP2123,T2,40,43,90
+z5300029,Engineering,Software Engineering,COMP2123,T3,28,33,69
+z5300030,Science,Statistics,DATA2001,T1,30,29,73
